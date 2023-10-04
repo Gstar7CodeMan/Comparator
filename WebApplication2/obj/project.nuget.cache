@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "5K0nK+jjRu8riMbNrJYcBiOC+htUX1ieaHsZQVjpwpQWEydCWlEBBOw1bvbtk9qphRYKD4sD8pUyFNGB+gB4WA==",
+  "dgSpecHash": "a4nYPxMUBtyaLC0M22o8FGVbx+qVo24n/cnk6KhiOBKGfBJ4E7jAmSO4Oiglo//XotpaabAqbbdlN6SgJMsprA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gcorp\\.nuget\\packages\\diffplex\\1.7.1\\diffplex.1.7.1.nupkg.sha512",
     "C:\\Users\\Gcorp\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",
-    "C:\\Users\\Gcorp\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+    "C:\\Users\\Gcorp\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
+    "C:\\Users\\Gcorp\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Gcorp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Gcorp\\.nuget\\packages\\selenium.webdriver\\4.13.1\\selenium.webdriver.4.13.1.nupkg.sha512",
+    "C:\\Users\\Gcorp\\.nuget\\packages\\selenium.webdriver.chromedriver\\117.0.5938.9200\\selenium.webdriver.chromedriver.117.0.5938.9200.nupkg.sha512",
+    "C:\\Users\\Gcorp\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

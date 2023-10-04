@@ -34,3 +34,12 @@ C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\obj\Debug\net7.0\Web
 C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\obj\Debug\net7.0\ref\WebApplication2.dll
 C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Rainbow.MergeEngine.dll
 C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Rainbow.MergeEngine.pdb
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\WebDriver.dll
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gcorp\source\repos\WebApplication2\WebApplication2\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll

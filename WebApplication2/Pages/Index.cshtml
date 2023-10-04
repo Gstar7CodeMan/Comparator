@@ -1,99 +1,153 @@
 ﻿@page
 @model WebApplication2.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
-
+    ViewData["Title"] = "Link Comparison";
     string ConvertToBase64(byte[] array)
     {
         return Convert.ToBase64String(array);
     }
 }
 
-<h1>Compare Links</h1>
+<!-- Styles for the page -->
 <style>
-    #linkTables {
-        display: flex;
-        justify-content: space-between;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 2em;
+        background-color: #f7f9fc;
     }
-    .highlight {
-        background-color: yellow;
+
+    .banner {
+        background-color: #007bff;
+        color: white;
+        padding: 1em 0;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .diff-added {
+        background-color: #e6ffe6;
+    }
+
+    .diff-removed {
+        background-color: #ffe6e6;
+    }
+
+    .link-broken {
+        color: red;
+    }
+
+    .link-ok {
+        color: green;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 2em;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    .download-report {
+        display: block;
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
     }
 </style>
 
+<div class="banner">Link Comparison Report</div>
+
+<h2>Enter Links for Comparison</h2>
+<!-- Input section for URLs -->
 <form method="get">
-    <label>Link 1: <input type="text" name="link1" value="@Model.Link1" /></label>
-    <label>Link 2: <input type="text" name="link2" value="@Model.Link2" /></label>
+    <label>
+        Link 1:
+        <input type="text" name="link1" value="@Model.Link1" style="width: 80%;" />
+    </label><br /><br />
+    <label>
+        Link 2:
+        <input type="text" name="link2" value="@Model.Link2" style="width: 80%;" />
+    </label><br /><br />
     <button type="submit">Compare</button>
-
 </form>
-<button id="downloadReport">Download Report</button>
 
-<div id="reportContent">
-    <h2>Text Differences</h2>
-    @Html.Raw(Model.HighlightedDifference)  <!-- Highlighted differences -->
 
-    <h2>Links from @Model.Link1</h2>
-    <div id="linkTables">
-    <table border="1">
-        <thead>
+<!-- Tables to display link statuses -->
+<h2>Link Statuses</h2>
+<table style="width: 49%; float: left; margin-right: 1%;">
+    <thead>
+        <tr>
+            <th colspan="3">Links from @Model.Link1</th>
+        </tr>
+        <tr>
+            <th>URL</th>
+            <th>Status</th>
+            <th>Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var link in Model.LinksStatus1)
+        {
             <tr>
-                <th>URL</th>
-                <th>Status</th>
-                <th>Is Broken</th>
+                <td>@link.Url</td>
+                <td class="@(link.IsBroken ? "link-broken" : "link-ok")">@(link.IsBroken ? "Broken" : "OK")</td>
+                <td>@link.StatusCode</td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var link in Model.LinksStatus1)
-            {
-                var highlightClass = Model.LinksStatus2.Any(l => l.Url == link.Url) ? "" : "highlight";
-                 <tr class="@highlightClass">                
-                    <td>@link.Url</td>
-                    <td>@link.StatusCode</td>
-                    <td>@(link.IsBroken ? "Yes" : "No")</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-
-    <h2>Links from @Model.Link2</h2>
-    <table border="1">
-        <thead>
+        }
+    </tbody>
+</table>
+<table style="width: 49%; float: left;">
+    <thead>
+        <tr>
+            <th colspan="3">Links from @Model.Link2</th>
+        </tr>
+        <tr>
+            <th>URL</th>
+            <th>Status</th>
+            <th>Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var link in Model.LinksStatus2)
+        {
             <tr>
-                <th>URL</th>
-                <th>Status</th>
-                <th>Is Broken</th>
+                <td>@link.Url</td>
+                <td class="@(link.IsBroken ? "link-broken" : "link-ok")">@(link.IsBroken ? "Broken" : "OK")</td>
+                <td>@link.StatusCode</td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var link in Model.LinksStatus2)
-            {
-                    var highlightClass = Model.LinksStatus2.Any(l => l.Url == link.Url) ? "" : "highlight";
-                    <tr class="@highlightClass">
-                    <td>@link.Url</td>
-                    <td>@link.StatusCode</td>
-                    <td>@(link.IsBroken ? "Yes" : "No")</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-    </div>
-    <script>
-        document.getElementById("downloadReport").addEventListener("click", function() {
-            var content = document.getElementById('reportContent').outerHTML;
-            var blob = new Blob([content], { type: "text/html" });
-            var link = document.createElement("a");
-            link.href = URL.createObjectURL(blob);
-            link.download = "report.html";
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
-    </script>
+        }
+    </tbody>
+</table>
+<div style="clear: both;"></div>
 
-
-    <h2>Different Images</h2>
+<h2>Different Images</h2>
+<div>
     @foreach (var img in Model.DifferentImages)
     {
-        <img src="data:image/jpeg;base64,@ConvertToBase64(img)" alt="Image" />
+        <img src="data:image/jpeg;base64,@ConvertToBase64(img)" alt="Image" style="margin: 5px; border: 1px solid #ddd; padding: 5px; max-width: 200px;" />
     }
 </div>
+
+<h2>Content Differences</h2>
+<div style="border: 1px solid #ccc; padding: 1em; background-color: #ffffff;">
+    @Html.Raw(Model.HighlightedDifference)
+</div>
+<!-- Placeholder for downloading report; You'll need to implement functionality in the backend for this -->
+<button class="download-report" onclick="window.location.href='/download-report'">Download Report</button>
