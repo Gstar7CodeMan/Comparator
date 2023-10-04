@@ -1,0 +1,99 @@
+﻿@page
+@model WebApplication2.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    string ConvertToBase64(byte[] array)
+    {
+        return Convert.ToBase64String(array);
+    }
+}
+
+<h1>Compare Links</h1>
+<style>
+    #linkTables {
+        display: flex;
+        justify-content: space-between;
+    }
+    .highlight {
+        background-color: yellow;
+    }
+</style>
+
+<form method="get">
+    <label>Link 1: <input type="text" name="link1" value="@Model.Link1" /></label>
+    <label>Link 2: <input type="text" name="link2" value="@Model.Link2" /></label>
+    <button type="submit">Compare</button>
+
+</form>
+<button id="downloadReport">Download Report</button>
+
+<div id="reportContent">
+    <h2>Text Differences</h2>
+    @Html.Raw(Model.HighlightedDifference)  <!-- Highlighted differences -->
+
+    <h2>Links from @Model.Link1</h2>
+    <div id="linkTables">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Status</th>
+                <th>Is Broken</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var link in Model.LinksStatus1)
+            {
+                var highlightClass = Model.LinksStatus2.Any(l => l.Url == link.Url) ? "" : "highlight";
+                 <tr class="@highlightClass">                
+                    <td>@link.Url</td>
+                    <td>@link.StatusCode</td>
+                    <td>@(link.IsBroken ? "Yes" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Links from @Model.Link2</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Status</th>
+                <th>Is Broken</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var link in Model.LinksStatus2)
+            {
+                    var highlightClass = Model.LinksStatus2.Any(l => l.Url == link.Url) ? "" : "highlight";
+                    <tr class="@highlightClass">
+                    <td>@link.Url</td>
+                    <td>@link.StatusCode</td>
+                    <td>@(link.IsBroken ? "Yes" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+    <script>
+        document.getElementById("downloadReport").addEventListener("click", function() {
+            var content = document.getElementById('reportContent').outerHTML;
+            var blob = new Blob([content], { type: "text/html" });
+            var link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "report.html";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+    </script>
+
+
+    <h2>Different Images</h2>
+    @foreach (var img in Model.DifferentImages)
+    {
+        <img src="data:image/jpeg;base64,@ConvertToBase64(img)" alt="Image" />
+    }
+</div>

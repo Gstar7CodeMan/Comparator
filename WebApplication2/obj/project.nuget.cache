@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5K0nK+jjRu8riMbNrJYcBiOC+htUX1ieaHsZQVjpwpQWEydCWlEBBOw1bvbtk9qphRYKD4sD8pUyFNGB+gB4WA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gcorp\\.nuget\\packages\\diffplex\\1.7.1\\diffplex.1.7.1.nupkg.sha512",
+    "C:\\Users\\Gcorp\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",
+    "C:\\Users\\Gcorp\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9986e4a7-e1b2-4acc-89e6-c0752477c158</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiffPlex" Version="1.7.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Rainbow.MergeEngine">
+      <HintPath>..\..\..\..\Desktop\HtmlTextCompare_src\test\bin\Debug\Rainbow.MergeEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

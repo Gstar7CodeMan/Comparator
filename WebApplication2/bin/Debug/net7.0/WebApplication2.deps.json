@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WebApplication2/1.0.0": {
+        "dependencies": {
+          "DiffPlex": "1.7.1",
+          "HtmlAgilityPack": "1.11.54",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
+          "Rainbow.MergeEngine": "1.0.0.0"
+        },
+        "runtime": {
+          "WebApplication2.dll": {}
+        }
+      },
+      "DiffPlex/1.7.1": {
+        "runtime": {
+          "lib/net6.0/DiffPlex.dll": {
+            "assemblyVersion": "1.7.1.0",
+            "fileVersion": "1.7.1.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.54": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.54.0",
+            "fileVersion": "1.11.54.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {},
+      "Rainbow.MergeEngine/1.0.0.0": {
+        "runtime": {
+          "Rainbow.MergeEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplication2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiffPlex/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a0fSO2p8ykrcfzgG0sjpZAMZPthXXz4l6UIVuM9uyIYIh5yga4sq3aydSGt6n+MkdSBKvMurjjaKnxIqZtfG1g==",
+      "path": "diffplex/1.7.1",
+      "hashPath": "diffplex.1.7.1.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bgB79N4urc4D7hrD4R+Qk6CjPiYOfs6vfXNsmw3nCcfQEQvBQGjfAcl5k/tB1ZP1hA0d7xXs0jK8xAXV36IVUg==",
+      "path": "htmlagilitypack/1.11.54",
+      "hashPath": "htmlagilitypack.1.11.54.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aKxpRAUIxDrnSnyr7xJWGixOBgsB7Z4oHpWRkpRzzq04kfze4mN7944gRc4X9H2U5KG3A/btF74kavkO8KXqCg==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.4",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+    },
+    "Rainbow.MergeEngine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
