@@ -10,20 +10,7 @@
 
 <!-- Styles for the page -->
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 2em;
-        background-color: #f7f9fc;
-    }
-
-    .banner {
-        background-color: #007bff;
-        color: white;
-        padding: 1em 0;
-        text-align: center;
-        font-size: 1.5em;
-    }
-
+   
     .diff-added {
         background-color: #e6ffe6;
     }
@@ -72,21 +59,59 @@
     }
 </style>
 
-<div class="banner">Link Comparison Report</div>
+<div class="text-inner-banner-one pos-r ">
+    <div class="shape-wrapper">
+        <svg class="img-shape shape-one">
+            <path fill-rule="evenodd" fill="rgb(255, 223, 204)"
+                  d="M6.000,12.000 C9.314,12.000 12.000,9.314 12.000,6.000 C12.000,2.686 9.314,-0.000 6.000,-0.000 C2.686,-0.000 -0.000,2.686 -0.000,6.000 C-0.000,9.314 2.686,12.000 6.000,12.000 Z" />
+        </svg>
+        <svg class="img-shape shape-two">
+            <path fill-rule="evenodd" fill="rgb(182, 255, 234)"
+                  d="M6.000,12.000 C9.314,12.000 12.000,9.314 12.000,6.000 C12.000,2.686 9.314,-0.000 6.000,-0.000 C2.686,-0.000 -0.000,2.686 -0.000,6.000 C-0.000,9.314 2.686,12.000 6.000,12.000 Z" />
+        </svg>
+        <svg class="img-shape shape-three">
+            <path fill-rule="evenodd" fill="rgb(181, 198, 255)"
+                  d="M12.000,24.000 C18.627,24.000 24.000,18.627 24.000,12.000 C24.000,5.372 18.627,-0.000 12.000,-0.000 C5.372,-0.000 -0.000,5.372 -0.000,12.000 C-0.000,18.627 5.372,24.000 12.000,24.000 Z" />
+        </svg>
+        <svg class="img-shape shape-four">
+            <path fill-rule="evenodd" fill="rgb(255, 156, 161)"
+                  d="M7.500,15.000 C11.642,15.000 15.000,11.642 15.000,7.500 C15.000,3.358 11.642,-0.000 7.500,-0.000 C3.358,-0.000 -0.000,3.358 -0.000,7.500 C-0.000,11.642 3.358,15.000 7.500,15.000 Z" />
+        </svg>
+        <svg class="img-shape shape-five">
+            <path fill-rule="evenodd" fill="rgb(178, 236, 255)"
+                  d="M12.500,25.000 C19.403,25.000 25.000,19.403 25.000,12.500 C25.000,5.596 19.403,-0.000 12.500,-0.000 C5.596,-0.000 -0.000,5.596 -0.000,12.500 C-0.000,19.403 5.596,25.000 12.500,25.000 Z" />
+        </svg>
+    </div> <!-- /.shape-wrapper -->
+    <div class="container">
+        <p>UI/UX toolkit</p>
+        <h2 class="pt-12">UnSecured Web Page Compator</h2>
+    </div>
+</div> <!-- /.text-inner-banner-one -->
 
-<h2>Enter Links for Comparison</h2>
+<h4>Enter Links for Comparison</h4>
 <!-- Input section for URLs -->
-<form method="get">
-    <label>
-        Link 1:
-        <input type="text" name="link1" value="@Model.Link1" style="width: 80%;" />
-    </label><br /><br />
-    <label>
-        Link 2:
-        <input type="text" name="link2" value="@Model.Link2" style="width: 80%;" />
-    </label><br /><br />
-    <button type="submit">Compare</button>
+<div class="contact-form mt-120 md-mt-60">
+    <form class="form theme-form-style-two" id="contact-form" data-toggle="validator" method="get">
+        <div class="messages"></div>
+            <div class="controls">
+                <div class="form-group">
+                    <input id="form_email" type="email" value="@Model.Link1" name="email" placeholder="Source URL*" required="required" data-error="Source URL is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                    <input id="form_sub" type="text" name="sub" value="@Model.Link2" placeholder="Comparison URL*" required="required" data-error="URL to be compared is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+    </div>
+
+
+
+    <button class="theme-btn solid-button-one mt-35" type="submit">Compare<i class="fa fa-angle-right icon-right" aria-hidden="true"></i></button>
 </form>
+</div>
+
+
 
 
 <!-- Tables to display link statuses -->

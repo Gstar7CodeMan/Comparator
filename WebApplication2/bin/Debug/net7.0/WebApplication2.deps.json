@@ -13,6 +13,7 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
           "Selenium.WebDriver": "4.13.1",
           "Selenium.WebDriver.ChromeDriver": "117.0.5938.9200",
+          "jQuery": "3.7.1",
           "Rainbow.MergeEngine": "1.0.0.0"
         },
         "runtime": {
@@ -35,6 +36,7 @@
           }
         }
       },
+      "jQuery/3.7.1": {},
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {},
       "Microsoft.Win32.SystemEvents/7.0.0": {
         "runtime": {
@@ -121,6 +123,13 @@
       "sha512": "sha512-bgB79N4urc4D7hrD4R+Qk6CjPiYOfs6vfXNsmw3nCcfQEQvBQGjfAcl5k/tB1ZP1hA0d7xXs0jK8xAXV36IVUg==",
       "path": "htmlagilitypack/1.11.54",
       "hashPath": "htmlagilitypack.1.11.54.nupkg.sha512"
+    },
+    "jQuery/3.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rF8hnQxmBMlIspf8VN72bALtmIpKx6hKRpUdTOkp/8JzfF8KgNqHut5lOy9kFGvFIStumCqJ+PBxpI9gxpRYfQ==",
+      "path": "jquery/3.7.1",
+      "hashPath": "jquery.3.7.1.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
       "type": "package",

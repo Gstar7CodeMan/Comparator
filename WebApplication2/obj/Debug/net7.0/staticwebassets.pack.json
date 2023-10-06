@@ -5,244 +5,340 @@
       "PackagePath": "staticwebassets\\WebApplication2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\custom-animation.css",
+      "PackagePath": "staticwebassets\\css\\custom-animation.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\framework.css",
+      "PackagePath": "staticwebassets\\css\\framework.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\shortcode-style.css",
+      "PackagePath": "staticwebassets\\css\\shortcode-style.css"
+    },
+    {
       "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\fonts.css",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-black-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-black-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-black-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-black-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-bold-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-bold-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-bold-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-bold-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-light-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-light-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-light-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-light-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-light-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-light-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-semibold-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-semibold-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-semibold-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-semibold-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-ultralight-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-ultralight-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\gilroy\\gilroy-ultralight-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\gilroy\\gilroy-ultralight-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\glyphicons\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\glyphicons\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\glyphicons\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\glyphicons\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\glyphicons\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\icon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\icon\\font\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\inc\\contact.php",
+      "PackagePath": "staticwebassets\\inc\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\jquery.2.2.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.2.2.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\map-script.js",
+      "PackagePath": "staticwebassets\\js\\map-script.js"
+    },
+    {
       "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "C:\\Users\\Gcorp\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssets.props",

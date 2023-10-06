@@ -62,6 +62,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[117.0.5938.9200, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
             }
           },
           "imports": [
