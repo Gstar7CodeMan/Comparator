@@ -26,27 +26,111 @@
     .link-ok {
         color: green;
     }
-
-    table {
+    /* DataTable Styles */
+    #linkStatusTable1, #linkStatusTable2 {
+        border: 1px solid #d4d4d4;
+        background-color: #ffffff;
         width: 100%;
-        border-collapse: collapse;
         margin-bottom: 2em;
     }
 
-    th, td {
-        padding: 8px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
+        #linkStatusTable1 thead, #linkStatusTable2 thead {
+            background-color: #3a3a3a;
+            color: white;
+        }
+
+        #linkStatusTable1 tbody tr:hover, #linkStatusTable2 tbody tr:hover {
+            background-color: #e0e0e0; /* light gray for hover */
+        }
+
+        #linkStatusTable1 tbody tr:nth-child(odd), #linkStatusTable2 tbody tr:nth-child(odd) {
+            background-color: #fafafa; /* lighter gray for alternating row colors */
+        }
+
+    /* Pagination Styles - Simplified */
+    .dataTables_wrapper .dataTables_paginate {
+        text-align: right;
+        padding: 10px 0;
     }
 
-    th {
-        background-color: #f2f2f2;
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+
+            margin-left: 2px;
+            border-radius: 3px;
+            border: none;
+            background-color: #e6e6e6;
+            color: black;
+        }
+
+            .dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+            .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+                font-weight: bold;
+            }
+
+    /* Images Section */
+    .images-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    tr:hover {
-        background-color: #f5f5f5;
+    .images-section img {
+            margin: 10px;
+            border: 1px solid #ddd;
+            padding: 5px;
+            max-width: 150px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+    .images-section img:hover {
+                transform: scale(1.1);
+            }
+    .image-container {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 5px;
     }
 
+        .image-container img {
+            max-width: 200px;
+        }
+
+
+    /* Metrics Section */
+    .metrics-header {
+        color: #4A90E2; 
+        margin-top: 40px;
+    }
+
+    .metrics-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .metrics-table th, .metrics-table td {
+            border: 1px solid #e7e7e7;
+            padding: 10px 15px;
+            text-align: left;
+        }
+
+        .metrics-table th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+
+        .metrics-table tbody tr:hover {
+            background-color: #e6ffe6; /* Light green for hover */
+        }
+
+    .metrics-header {
+        font-size: 1.5em;
+        margin-top: 40px;
+        border-bottom: 2px solid #e0e0e0;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
     .download-report {
         display: block;
         background-color: #007bff;
@@ -91,32 +175,70 @@
 <h4>Enter Links for Comparison</h4>
 <!-- Input section for URLs -->
 <div class="contact-form mt-120 md-mt-60">
-    <form class="form theme-form-style-two" id="contact-form" data-toggle="validator" method="get">
+    <form class="form theme-form-style-two"  method="get">
         <div class="messages"></div>
             <div class="controls">
                 <div class="form-group">
-                    <input id="form_email" type="email" value="@Model.Link1" name="email" placeholder="Source URL*" required="required" data-error="Source URL is required.">
+                <input id="form_message" type="text" name="link1" value="@Model.Link1" placeholder="Source URL*" required="required" data-error="Source URL is required.">
                     <div class="help-block with-errors"></div>
                 </div>
 
                 <div class="form-group">
-                    <input id="form_sub" type="text" name="sub" value="@Model.Link2" placeholder="Comparison URL*" required="required" data-error="URL to be compared is required.">
+                <input id="form_message" type="text" name="link2" value="@Model.Link2" placeholder="Comparison URL*" required="required" data-error="URL to be compared is required.">
                     <div class="help-block with-errors"></div>
                 </div>
     </div>
 
-
-
-    <button class="theme-btn solid-button-one mt-35" type="submit">Compare<i class="fa fa-angle-right icon-right" aria-hidden="true"></i></button>
+    <button class="theme-btn solid-button-one mt-35" type="submit">Compare</button>
 </form>
 </div>
 
+<form method="get">
+    <label>Link 1: <input type="text" name="link1" value="@Model.Link1" /></label>
+    <label>Link 2: <input type="text" name="link2" value="@Model.Link2" /></label>
+    <button type="submit">Compare</button>
+</form>
 
+<h2 class="metrics-header">Website Performance Metrics</h2>
+    <table class="metrics-table">
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Link 1 (@Model.Link1)</th>
+                <th>Link 2 (@Model.Link2)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var metric in Model.PerformanceMetrics1.Keys)
+            {
+                <tr>
+                <td>@metric</td>
+                <td>@(metric == "TotalLoadTimeS" ? Model.PerformanceMetrics1[metric]?.ToString("N2") + " s" : Model.PerformanceMetrics1[metric]?.ToString("N2") + " ms")</td>
+                <td>@(metric == "TotalLoadTimeS" ? Model.PerformanceMetrics2[metric]?.ToString("N2") + " s" : Model.PerformanceMetrics2[metric]?.ToString("N2") + " ms")</td>
+            </tr>
+            }
 
+            <tr>
+                <td>Mobile Responsive</td>
+                <td>@(Model.IsMobileResponsive1 ? "Yes" : "No")</td>
+                <td>@(Model.IsMobileResponsive2 ? "Yes" : "No")</td>
+            </tr>
+            <tr>
+                <td>External Scripts</td>
+                <td>@Model.ExternalScriptsCount1</td>
+                <td>@Model.ExternalScriptsCount2</td>
+            </tr>
+            <tr>
+                <td>External Stylesheets</td>
+                <td>@Model.ExternalStylesheetsCount1</td>
+                <td>@Model.ExternalStylesheetsCount2</td>
+            </tr>
+        </tbody>
+    </table>
 
 <!-- Tables to display link statuses -->
 <h2>Link Statuses</h2>
-<table style="width: 49%; float: left; margin-right: 1%;">
+<table id="linkStatusTable1" class="table table-bordered table-striped">
     <thead>
         <tr>
             <th colspan="3">Links from @Model.Link1</th>
@@ -131,14 +253,14 @@
         @foreach (var link in Model.LinksStatus1)
         {
             <tr>
-                <td>@link.Url</td>
+                <td class="url-cell" title="@link.Url">@link.Url</td>
                 <td class="@(link.IsBroken ? "link-broken" : "link-ok")">@(link.IsBroken ? "Broken" : "OK")</td>
                 <td>@link.StatusCode</td>
             </tr>
         }
     </tbody>
 </table>
-<table style="width: 49%; float: left;">
+<table id="linkStatusTable2" class="table table-bordered table-striped">
     <thead>
         <tr>
             <th colspan="3">Links from @Model.Link2</th>
@@ -153,7 +275,7 @@
         @foreach (var link in Model.LinksStatus2)
         {
             <tr>
-                <td>@link.Url</td>
+                 <td class="url-cell" title="@link.Url">@link.Url</td>
                 <td class="@(link.IsBroken ? "link-broken" : "link-ok")">@(link.IsBroken ? "Broken" : "OK")</td>
                 <td>@link.StatusCode</td>
             </tr>
@@ -163,16 +285,149 @@
 <div style="clear: both;"></div>
 
 <h2>Different Images</h2>
-<div>
-    @foreach (var img in Model.DifferentImages)
-    {
-        <img src="data:image/jpeg;base64,@ConvertToBase64(img)" alt="Image" style="margin: 5px; border: 1px solid #ddd; padding: 5px; max-width: 200px;" />
-    }
+
+
+<div class="element-section mb-150">
+    <div class="slider-item-wrapper">
+        <div class="home-gallery-slider">
+            @foreach (var img in Model.DifferentImages)
+            {
+                <div class="item">
+                    <div class="gallery-polar-state">
+                        <div class="img-holder pos-r">
+                            <img src="data:image/jpeg;base64,@ConvertToBase64(img)" alt="Image" style="margin: 5px; border: 1px solid #ddd; padding: 5px; max-width: 200px;" />
+                            <a href="data:image/jpeg;base64,@ConvertToBase64(img)" class="icon zoom fancybox" data-fancybox="images" data-caption="Difference">+</a>
+                        </div> <!-- /.img-holder -->
+                    </div> <!-- /.gallery-polar-state -->
+                </div>
+            }
+        </div>
+    </div> <!-- /.slider-item-wrapper -->
 </div>
 
-<h2>Content Differences</h2>
-<div style="border: 1px solid #ccc; padding: 1em; background-color: #ffffff;">
-    @Html.Raw(Model.HighlightedDifference)
+
+
+<div style="border: 1px solid #ccc; padding: 1em; background-color: #ffffff; overflow: auto; box-sizing: border-box; width: 100%; word-wrap: break-word;">
+    <h2 style="margin-top: 0;">Content Differences</h2>
+    <table id="content-differences" class="display" style="width:100%;">
+        <thead>
+            <tr>
+                <th>Content Difference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.Raw(Model.HighlightedDifference)
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
-<!-- Placeholder for downloading report; You'll need to implement functionality in the backend for this -->
-<button class="download-report" onclick="window.location.href='/download-report'">Download Report</button>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#content-differences').DataTable();
+        });
+    </script>
+}
+
+<script src="~/owl-carousel/owl.carousel.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.bootstrap5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.colVis.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var table1 = $('#linkStatusTable1').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                {
+                    extend: 'copyHtml5',
+                    titleAttr: 'Copy table data'
+                },
+                {
+                    extend: 'excelHtml5',
+                    titleAttr: 'Export to Excel'
+                },
+                {
+                    extend: 'csvHtml5',
+                    titleAttr: 'Export to CSV'
+                },
+                {
+                    extend: 'pdfHtml5',
+                    titleAttr: 'Export to PDF'
+                },
+                {
+                    extend: 'print',
+                    titleAttr: 'Print table'
+                },
+                {
+                    extend: 'colvis',
+                    titleAttr: 'Column visibility'
+                },
+                {
+                    text: 'Export to Text',
+                    action: function (e, dt, node, config) {
+                        var data = table1.data().toArray();
+                        var rows = data.map(row => row.join('\t')).join('\n');
+                        var blob = new Blob([rows], { type: 'text/plain' });
+                        var link = document.createElement('a');
+                        link.href = window.URL.createObjectURL(blob);
+                        link.download = 'data.txt';
+                        link.click();
+                    }
+                }
+            ]
+        });
+
+        var table2 = $('#linkStatusTable2').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                {
+                    extend: 'copyHtml5',
+                    titleAttr: 'Copy table data'
+                },
+                {
+                    extend: 'excelHtml5',
+                    titleAttr: 'Export to Excel'
+                },
+                {
+                    extend: 'csvHtml5',
+                    titleAttr: 'Export to CSV'
+                },
+                {
+                    extend: 'pdfHtml5',
+                    titleAttr: 'Export to PDF'
+                },
+                {
+                    extend: 'print',
+                    titleAttr: 'Print table'
+                },
+                {
+                    extend: 'colvis',
+                    titleAttr: 'Column visibility'
+                },
+                {
+                    text: 'Export to Text',
+                    action: function (e, dt, node, config) {
+                        var data = table2.data().toArray();
+                        var rows = data.map(row => row.join('\t')).join('\n');
+                        var blob = new Blob([rows], { type: 'text/plain' });
+                        var link = document.createElement('a');
+                        link.href = window.URL.createObjectURL(blob);
+                        link.download = 'data.txt';
+                        link.click();
+                    }
+                }
+            ]
+        });
+    });
+</script>

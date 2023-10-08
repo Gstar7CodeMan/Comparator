@@ -55,6 +55,14 @@
               "target": "Package",
               "version": "[1.19.4, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.13.1, )"

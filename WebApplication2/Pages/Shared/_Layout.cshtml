@@ -22,6 +22,10 @@
     <link rel="stylesheet" type="text/css" href="~/css/style.css">
     <!-- responsive style sheet -->
     <link rel="stylesheet" type="text/css" href="~/css/responsive.css">
+    <!-- Include the required stylesheets and scripts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.bootstrap4.min.css" />
 
 </head>
 <body>
@@ -104,9 +108,12 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
 
     <script src="~/js/theme.js" asp-append-version="true"></script>
-   
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-responsive-table-cards@1.0.4/dist/jquery.responsive-table-cards.min.js"></script>
+    <script src="~/owl-carousel/owl.carousel.min.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
-    </di
+    </div>
+
 </body>
 </html>
